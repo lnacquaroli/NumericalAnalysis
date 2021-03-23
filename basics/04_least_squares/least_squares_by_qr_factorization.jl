@@ -84,6 +84,9 @@ b = [-3; 15; 9]
 # ╔═╡ 37a1f130-8295-11eb-2c07-cdcd34a0a9fa
 sol = classical_gram_schmidth(A)
 
+# ╔═╡ 4707da00-85af-11eb-31ef-d9835e040fae
+A \ b
+
 # ╔═╡ 9ca30da0-829d-11eb-2350-d91b59de0a97
 sol = least_squares_qr(A, b)
 
@@ -119,6 +122,7 @@ c = qr.R[1:8,1:8]\b[1:8]
 # ╠═37e6c260-8295-11eb-158d-a7886133d571
 # ╠═a1648d52-829d-11eb-07c0-c7b10b4bb3df
 # ╠═37a1f130-8295-11eb-2c07-cdcd34a0a9fa
+# ╠═4707da00-85af-11eb-31ef-d9835e040fae
 # ╠═9ca30da0-829d-11eb-2350-d91b59de0a97
 # ╠═e5b45850-829d-11eb-0cb6-11f8ce9bab2a
 # ╠═e59f97d0-829d-11eb-0f05-2b9833154da0
